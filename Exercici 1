@@ -1,0 +1,17 @@
+# Base-de-dades
+Exercicis sprint 1 tasca 1
+Exercici 1
+-- Aquesta base de dades consta de 5 taules que es relacionen entre si de diferent manera.
+1. Taula de gènere (tb_genre) on podem veure els diferents tipus de gènere. Tenim la columna de id_genre que ens serveix com a connector per a altres taules
+2. Taula de películ·les (tb_movie) ens mostra diferent pel·licules, data de la pel·licula, format i id del gènere per poder-ho relacionar amb la taula anterior.
+També consta cada pel·licula de un id com a indentificador únic i per poder-lo relacioanr amb altres taules.
+3. Taula relacional de pel·licula i persona. Ens mostra una taula on a través del indentificador únic ens relaciona pel·licules, persones i el rol que han tingut 
+en cada pel·licula. 
+4. Taula de persones que han participat en les pel·licules. Ens mostra les persones que han participat en les pel·licules. també te un id únic i dades de cada un com el 
+país, data de naixement i mort, i un id que relaciona els fills amb els pares. 
+5. Taula de rols (tb_role) que ens explica els diferents tipus de rols que hi ha per cada persona.
+
+El id de cada taula son la clau primaria que ens permetra relaciona entre les taules. 
+La taula de tb_movie_person es on veiem que ens relaciona més coses, pel·licula amb persona i tipus de role de cada persona per pel·licula. Observem que algunes persones
+fan més d'un rol en cada pel·licula. 
+La taula tb_movie la podem relacionar amb la de gènere per saber quin gènere te. 
