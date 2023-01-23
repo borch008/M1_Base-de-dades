@@ -1,0 +1,1 @@
+delete from tb_movie where movie_title = 'La Gran Familia Española'
